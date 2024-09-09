@@ -135,60 +135,60 @@ void loop() {
   //  float h = 80.00;
   //  float t = 28.00;
 
-//   String temp, humd;
-//
-//   if(isnan(h)){
-//     humd = ""; 
-//   }
-//   else humd = String(h);
-//
-//   if(isnan(t)){
-//     temp = ""; 
-//   }
-//   else temp = String(t);
+   String temp, humd;
+
+   if(isnan(h)){
+     humd = ""; 
+   }
+   else humd = String(h);
+
+   if(isnan(t)){
+     temp = ""; 
+   }
+   else temp = String(t);
 
   //-------------------------------------------------------------------Writing Data to Google Sheets--------------------------------------------------------------------------
 
-//    if (WiFi.status() == WL_CONNECTED) {
-//      
-//      // Create a URL for sending or writing data to Google Sheets.
-//      String Send_Data_URL = Web_App_URL + "?sts=write";
-//      Send_Data_URL += "&temp=" + temp;
-//      Send_Data_URL += "&humd=" + humd;
-//      Send_Data_URL += "&gas1=" + String(gas1);
-//      Send_Data_URL += "&gas2=" + String(gas2);
-//      Send_Data_URL += "&gas3=" + String(gas3);
-//      Send_Data_URL += "&soil1=" + String(SoilMoisture1);
-//      Send_Data_URL += "&soil2=" + String(SoilMoisture2);
-//      Send_Data_URL += "&soil3=" + String(SoilMoisture3);
-//      
-//      Serial.println();
-//      Serial.println("-------------");
-//      Serial.println("Send data to Google Spreadsheet...");
-//      Serial.print("URL : ");
-//      Serial.println(Send_Data_URL);
-//
-//      // Initialize HTTPClient as "http".
-//      HTTPClient http;
-//  
-//      // HTTP GET Request.
-//      http.begin(Send_Data_URL.c_str());
-//      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
-//  
-//      // Gets the HTTP status code.
-//      int httpCode = http.GET(); 
-//      Serial.print("HTTP Status Code : ");
-//      Serial.println(httpCode);
-//  
-//      // Getting response from google sheets.
-//      String payload;
-//      if (httpCode > 0) {
-//        payload = http.getString();
-//        Serial.println("Payload : " + payload);    
-//      }
-//      
-//      http.end();  
-//  }
+    if (WiFi.status() == WL_CONNECTED) {
+      
+      // Create a URL for sending or writing data to Google Sheets.
+      String Send_Data_URL = Web_App_URL + "?sts=write";
+      Send_Data_URL += "&temp=" + temp;
+      Send_Data_URL += "&humd=" + humd;
+      Send_Data_URL += "&gas1=" + String(gas1);
+      Send_Data_URL += "&gas2=" + String(gas2);
+      Send_Data_URL += "&gas3=" + String(gas3);
+      Send_Data_URL += "&soil1=" + String(SoilMoisture1);
+      Send_Data_URL += "&soil2=" + String(SoilMoisture2);
+      Send_Data_URL += "&soil3=" + String(SoilMoisture3);
+      
+      Serial.println();
+      Serial.println("-------------");
+      Serial.println("Send data to Google Spreadsheet...");
+      Serial.print("URL : ");
+      Serial.println(Send_Data_URL);
+
+      // Initialize HTTPClient as "http".
+      HTTPClient http;
+  
+      // HTTP GET Request.
+      http.begin(Send_Data_URL.c_str());
+      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
+  
+      // Gets the HTTP status code.
+      int httpCode = http.GET(); 
+      Serial.print("HTTP Status Code : ");
+      Serial.println(httpCode);
+  
+      // Getting response from google sheets.
+      String payload;
+      if (httpCode > 0) {
+        payload = http.getString();
+        Serial.println("Payload : " + payload);    
+      }
+      
+      http.end();  
+  }
 
   delay(15000);
 }
