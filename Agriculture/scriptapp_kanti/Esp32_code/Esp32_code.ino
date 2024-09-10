@@ -2,11 +2,8 @@
 #include <WiFi.h>
 #include <DHT.h>
 
-//#define WIFI_SSID "SCLR_RM"
-//#define WIFI_PASS "sclrlab424"
-
-#define WIFI_SSID "Abhi"
-#define WIFI_PASS "ankufiber"
+#define WIFI_SSID "SCLR_RM"
+#define WIFI_PASS "sclrlab424"
 
 String Web_App_URL = "https://script.google.com/macros/s/AKfycbxODYkqBiGt-a4clPFDZPzTXaza4jT7uUSWfpEUPS8RLZOopQ_ZLfwO7803a__ak-ZRMg/exec";  // Google script Web_App_URL.
 
