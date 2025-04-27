@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "co2-sensor-428405",
+  "private_key_id": "2e5755728d86a164657a91ab798e93f2dc0e338c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7ppTLgQmQe+XZ\noosgDAoFWkiXRsCEOSNPc2RJIgV6OPubI9VyuEoU9VVx48tsFSSlDMK6XuzOHCzs\nWYzthaFPLtG7s6ZRKQMPaIK5Pl3YPhXnObSvTPAXv/FzU4Z4Z1Ud5QfQCa3ZFPgM\nZSush4U1bRFzqWSp+PoxjfPhRCg15LLjBPyQ04NZfws+iFEAQGoFTyQ4ZUeGXGAd\nzvo6mkm+B86QsTtGJYlxL6kDE0eYr8YBOUy4jIy3zLEj+cmRjxYiKOzhgJe69kiK\nCns49ozb1iTYUTEjnpG3scjrbEDLs7qJbbUzHEU85ASAwNe776APrl+uAHy5ifBZ\n0EQvVtIlAgMBAAECggEAK9nivae653O8o94zKtsFYHjXq9pR1NRRZxitH9X+d7Bn\nQ7rc/4EHdtxaClJUUD6koJlZzBmwtv2oldbbcwoeRxXG11lFDYRK/cfLfKSRY54m\nmjFHAww0sygcsXmcW/ix0FmcOMZ6RNd8m9DsotXMkE6bnG7CYmIXfYsRqdu2ldkk\nONk7px+sDq87WzTO7WEzn9wZ4xXt7nyP4GWSxw7H/GGVx/AXg9bBAEcrwd9boKTO\n0Za27BkHqWx0zCLDhk0aStiOidBJUvkH5qZlMuX+90/sX7AvX6QOcw6Ccs7l+NfG\nDHinmMCEvL14Iz2SvoWeBFJ/9yh/A/YQla9g44vUwQKBgQDp60XIfBJoBZr3v7eu\n5uHCiPro1iADWsTA3Y72z/Dajy8JXRZQrh7mF0AD0ayAs8F4F6bTnwi+6MtxoPAg\nkEQ5V9HLlto8yODYhvW4nxnpwLRBwIFNQI/8W4l622qjActTL6k+uMA6mpDSDN0B\nXO6WMyBkgFvMuXxKbGg0442BFQKBgQDNXThMw5x2ifpXOEWwyfwqZsmDW7iamZKr\nDYtDpPCgH6jPeRPUadHE6nCfYA2KXe2YNO8eiZgRO17Ri+eEC7IfK0bgQvar7bcL\n5AS7ffGIsKwdK21ImgCf1rvg/NgqTf/B3JsOmaY3pRzwrndnPnPh9lrcJKA4tbNo\nc5EakEqw0QKBgQCQBgLmSLYQg/sBNXKD5rXzz+EkwMnfJuDjmsauYiN6fhRI4J6f\nuEVgB8qrT0q1x3eEWJOn0lBRMwYoBR4z/n9zCwYqIsxmBoyh5J6gOJ181eBmZ391\nMB43E6kXEseaa71jj4HWE2yP6KDoI3FjqHNh2ULFfl6HM2E6dXrHrZ9vbQKBgCcy\nnNViHNIvYd4V+o9U7lG1js8IycKQf4MwsZ02tUsK3/DB3nwTuptIWDjDX7JCXWBI\n8j806haX63A5sPXuOZBjdULG5UhJtj+JxTF4R4rcle13ZYOPCYF4viGigSwJ+UAq\neFogD67dUBnMYzQMopfFqvAL+Zz5aYYNUOvuEKORAoGBAJdMTlfU9Jk4+GBvH88G\nNhU4PhavDZ2hA26dFpncb5dnZ0MqztEquDPXg7keZem5iH3oJQKBKuoLZu+QVEDh\nFCA6Y+06YrUVkrvTnbVBZ/1J/1wa486jN4mJuoJoqhn7Td1/w5IP31MNoGJHg9hJ\nVEILhe/ikI9YvP1paxVKEImz\n-----END PRIVATE KEY-----\n",
+  "client_email": "co2-sensor@co2-sensor-428405.iam.gserviceaccount.com",
+  "client_id": "112927467763089968706",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/co2-sensor%40co2-sensor-428405.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
