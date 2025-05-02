@@ -2,8 +2,8 @@
 #include <FirebaseESP32.h>
 
 // WiFi and Firebase credentials
-#define WIFI_SSID "Abhi"
-#define WIFI_PASSWORD "ankufiber"
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "Password"
 #define led 15
 
 #define API_KEY "AIzaSyB-L2pj_4XVH9y7VBYOSAsTsT8p4cveHZY"
