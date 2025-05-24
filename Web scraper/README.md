@@ -10,6 +10,6 @@
 ## Step 3: Put your URLs to scrape in the "links.txt" file.
 
 ## Step 4: Run the scraper.
-### In your directory terminal run the following command
+### In your directory terminal run the following command:
         python crawler.py
  
