@@ -3,7 +3,7 @@
         1. python -m venv venv
         2. ./venv/Scripts/activate
 
-## Step 2: install all the requirements.
+## Step 2: Install all the requirements.
 ### Run the following command in your directory terminal:
         pip install -r requirements.txt
 
